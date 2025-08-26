@@ -1,0 +1,17 @@
+[project]
+name = "reverse-shell"
+version = "1.0.0"
+description = "A Python reverse shell tool"
+authors = [{name = "Generated"}]
+dependencies = []
+requires-python = ">=3.8"
+
+[project.scripts]
+reverse-shell = "reverse_shell:main"
+
+[tool.uv]
+dev-dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
